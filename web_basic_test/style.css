@@ -1,0 +1,37 @@
+
+.margin {
+margin: 0 auto;
+display: block;
+text-align: center;
+
+}
+
+.container-fluid {
+
+	padding: 0;
+
+}
+
+.title_text {
+position: absolute;
+height: 17px;
+left: 8.88%;
+right: 78.62%;
+top: calc(50% - 17px/2 - 3412px);
+
+font-family: Helvetica;
+font-size: 15px;
+line-height: 110px;
+/* or 733% */
+
+display: flex;
+align-items: center;
+letter-spacing: 5px;
+
+color: #2CA1F8;
+
+	
+}
+
+
+
