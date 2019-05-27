@@ -6,32 +6,504 @@ text-align: center;
 
 }
 
-.container-fluid {
-
-	padding: 0;
+.navbar-nav {
+float: right;
+margin: 0;
 
 }
 
+.bar_default{
+	float: left;
+	width: 48px;
+	height: 6957px;
+	background: #e5e9f0;
+}
+.right{
+	float: right;
+	width: calc(100% - 48px);
+}
+.top {
+
+	display: inline-block;
+	float: right;
+}
+
+.img {
+
+	vertical-align: middle;
+    border-image-width: inherit;
+    left: 2.56%;
+    top: -0.04%;
+    bottom: 85.70%;
+}
+.left {
+	height: 800px;
+}
+
+
+.button1 , .button2 {
+
+font-size: 50px;
+background-color: black;
+color: white;
+line-height: 1.8;
+
+}
+.btn-dark:hover
+{
+background-color: gray;
+}
+
+.container-fluid {
+
+	padding: 0;
+}
+.recruitment{
+	clear: both;
+	height: 583px;
+	padding: 0 8%;
+}
+.recruitment .title{
+	display: inline-block;
+    width: 100%;
+	margin-top: 4%;
+}
+.recruitment .title .btn_more{
+	float: right;
+	margin-top: 4.2%;
+}
+.recruitment .title .btn_more span{
+	position: absolute;
+	right: 5%;
+}
+.recruitment .title .title_latestjobs{
+	width: 50%;
+	float: left;
+}
+.recruitment .title .title_latestjobs h1{
+	font-size: 50px;
+}
+.recruitment .title .title_latestjobs span{
+	text-transform: uppercase;
+}
+.recruitment .jobs{
+	width: 248px;
+    float: left;
+    margin: 6% 0 0 3%;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 20px;
+}
+.recruitment .jobs.first{
+	margin-left: 0;
+}
+.recruitment .jobs .bar{
+	width: 20px;
+    height: 4px;
+    display: inline-block;
+	background: #000000;
+}
+.recruitment .jobs h3{
+	font-size: 25px;
+	opacity: 1;
+}
+.recruitment .jobs span, .recruitment .jobs p{
+	opacity: 0.6;
+}
+.recruitment .jobs .requirement{
+	background-color: #2CA1F8;
+	padding: 4px 12px;
+	color: #ffffff;
+	font-size: 12px;
+	border-radius: 25px;
+}
+.recruitment .jobs .infos{
+	margin-top: 16px;
+	border-top: 2px solid #dddddd;
+	padding: 5px 0
+}
+
 .title_text {
-position: absolute;
-height: 17px;
-left: 8.88%;
-right: 78.62%;
-top: calc(50% - 17px/2 - 3412px);
+font-family: "Helvetica" , Monospace , serif ;
+letter-spacing: 7px;
+color: black;
+font-size: x-large;
+width: 60%;
+float: left;
 
-font-family: Helvetica;
-font-size: 15px;
-line-height: 110px;
-/* or 733% */
+}
 
-display: flex;
-align-items: center;
-letter-spacing: 5px;
+h1.title_text {
+	font-size: 100px;
+	font-family: FANTASY;
+    font-weight: bold;
+    line-height: 1.1;
+    color: inherit;
+}
 
-color: #2CA1F8;
+p.title_text {
+	
+	line-height: 1.8;
+	text-decoration-style: solid;
+	text-decoration: solid;
+	font-size: 50px;
+	
+
+}
+
+.background {
+
+	background-image: url(img/bg.png);
+}
+
+.h1_text{
+
+font-size: 50px;
+font-family: serif;
+font-weight: bold;
 
 	
 }
 
+.p_text {
+
+	font-family: sans-serif;
+	font-size: 20px;
+	
+}
+
+.container .jumbotron {
+
+	width: 100%;
+	margin: 0 auto;
+	display: inline-block;
+
+}
+
+img.thalescode_image {
+
+	background-color: black;
+	float: right;
+	margin-top: auto; 
+
+}
+
+button {
+
+	background-color: gray;
+	 color: black;
+	 border-radius: 10px;
+	 text-decoration: none;
+	 color: #fff;
+
+}
+
+.line_img {
+	width: 100%;
+
+}
+
+.button:hover
+{
+	background-color: gray;
+
+}
+
+.why_thalescode{
+	display: inline-block;
+	width: 100%;
+    border-top: 2px solid #dddddd;
+	padding: 8%;
+	position: relative;
+	overflow: hidden;
+}
+
+.why_thalescode .title{
+	text-align: center;
+}
+.why_thalescode .title h1{
+	font-size: 50px;
+	line-height: 90px;
+	color: #2B3247;
+	font-weight: 500;
+}
+.why_thalescode .title span{
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 14px;
+}
+.why_thalescode .nav.nav-tabs{
+	width: 500px;
+	margin: 0 auto;
+	border: 0;
+}
+.why_thalescode .nav.nav-tabs li{
+	position: relative;
+	padding: 35px 0;
+	display: inline-block;
+}
+.why_thalescode .nav.nav-tabs li:nth-child(2){
+	margin-left: 50px;
+}
+.why_thalescode .nav.nav-tabs li.active::after{
+	content: "";
+    position: absolute;
+    display: inline-block;
+    width: 40px;
+    height: 4px;
+    background: #000000;
+    bottom: 5%;
+    right: 0;
+}
+.why_thalescode .nav.nav-tabs li a{
+	text-transform: uppercase;
+	font-size: 30px;
+	color: #8C93AA;
+}
+.why_thalescode .nav.nav-tabs li.active a{
+	color: #000000;
+}
+.why_thalescode .nav.nav-tabs li a:hover{
+	text-decoration: none;
+}
+.why_thalescode .employers{
+	float: left;
+	width: calc(100%/4 - 20px);
+	margin: 5% 13px 0;
+}
+.why_thalescode .employers .bar{
+	font-weight: bold;
+	font-size: 38px;
+	color: #2CA1F8;
+	line-height: 44px;
+	border-bottom: 2px solid #dddddd;
+	display: inline-block;
+    padding-bottom: 20px;
+}
+.why_thalescode .employers h3{
+	font-size: 25px;
+	line-height: 29px;
+	text-transform: capitalize;
+	margin-top: 25px;
+}
+.why_thalescode .employers p{
+	font-size: 16px;
+	line-height: 24px;
+	color: #000000;
+	opacity: 0.5;
+	margin-top: 8px;
+    display: inline-block;
+}
+.thalesblog{
+	display: inline-block;
+	width: 100%;
+    border-top: 2px solid #dddddd;
+	padding: 8%;
+}
+.thalesblog .title{
+	display: inline-block;
+    width: 100%;
+}
+.thalesblog .title .title_blog{
+	width: 50%;
+	float: left;
+}
+.thalesblog .title .title_blog h1{
+	color: #2B3247;
+	line-height: 90px;
+	font-weight: bold;
+	font-size: 50px;
+}
+.thalesblog .title .title_blog span{
+	text-transform: uppercase;
+	color: #2B3247;
+	opacity: 0.5;
+	font-weight: 500;
+	font-size: 12px;
+}
+.thalesblog .title .btn_more{
+	float: right;
+	margin-top: 4.2%;
+}
+.thalesblog .title .btn_more span{
+	position: absolute;
+	right: 5%;
+}
+.thalesblog .blog.blog_left{
+	float: left;
+	width: 60%;
+	position: relative;
+}
+.thalesblog .blog.blog_right{
+	float: right;
+	width: 35%;
+	position: relative;
+}
+.thalesblog .blog .img{
+	height: 480px;
+}
+.thalesblog .blog .overflow{
+    color: #ffffff;
+    font-size: 26px;
+    line-height: 55px;
+    font-weight: 700;
+    top: 19%;
+    letter-spacing: 3px;
+    position: absolute;
+    left: 37%;
+    text-align: center;
+}
+.thalesblog .blog .blog_title{
+	font-size: 33px;
+    color: #000000;
+    margin: 15px 0;
+}
+.thalesblog .blog p{
+	color: #8C93AA;
+	font-size: 16px;
+	line-height: 25px;
+	text-align: justify;
+}
+.thalesblog .blog .panel{
+	width: 40px;
+    height: 40px;
+    float: left;
+    margin: 15px 10px 0 0;
+    font-size: 20px;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #dadada;
+    color: #ffffff;
+}
+.thalesblog .blog .panel a{
+	color: #8C93AA;
+}
+.thalesblog .blog .panel_text{
+	float: right;
+	text-align: right;
+	margin-top: 20px;
+	font-size: 20px;
+	color: #8C93AA;
+	font-style: italic;
+}
+.thalesblog .blog .panel_text span{
+	font-weight: 300;
+}
+
+.build_img{
+	float: right;
+	left: 50%;
+	
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans";
+  font-size: 14px;
+}
+
+.form_container {
+	float:right;
+  width: 500px;
+  margin: 25px auto;
+  position: absolute;
+  right: 10%;
+}
+
+form {
+  padding: 20px;
+  color: #fff;
+  height: auto;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+form input,
+form button {
+  border: 0;
+  margin: 20px;
+  padding: 20px;
+  height: 25px;
+  display: block;
+  width: 100%;
+  border: 1px solid black;
+    -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+textarea {
+  border: 0;
+  margin: 20px !important;
+  padding: 20px;
+  height: 100px;
+  display: block;
+  width: 100%;
+  border: 1px solid black;
+    -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+form button {
+  height: 30px;
+  line-height: 6px;
+  background: gray;
+  color: white;
+  margin-top: 10px;
+  cursor: pointer;
+  text-align: center;
+  padding: 10px;
+}
+form .error {
+  color: #ff0000;
+}
+
+textarea {
+	width: 100%;
+}
 
 
+.lower {
+	height: 600px;
+	max-width: 100%;
+	padding-right: 100px;
+	position: relative;
+}
+
+.technologies_img, .boy_img, .girl_img, .build_img {
+	float: left;
+}
+
+.blog_img, .upper_img {
+	width: 100%;
+	height: auto;
+}
+
+.technologies_img, .boy_img {
+	padding: 20px;
+}
+
+.technologies_img {
+	width: 50%;
+}
+
+.girl_img {
+	width: 30%;
+}
+
+.build_img {
+	width: 60%;
+	margin-left: 20px;
+}
+
+.contact_info {
+	margin-left: 40px;
+	padding: 10px;
+}
