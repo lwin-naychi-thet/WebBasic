@@ -1,5 +1,9 @@
 
+.body {
 
+	margin: 0;
+	overflow-x: hidden;
+}
 
 .margin {
 margin: 0 auto;
@@ -139,7 +143,7 @@ float: left;
 
 h1.title_text {
 	font-size: 30px;
-	font-family: FANTASY;
+	font-family: Ubuntu;
     font-weight: bold;
     line-height: 1.1;
     color: inherit;
@@ -159,12 +163,13 @@ p.title_text {
 
 	background-image: url(img/bg.png);
 
+
 }
 
 .h1_text{
 
-font-size: 50px;
-font-family: serif;
+font-size: 30px;
+font-family: ubuntu;
 font-weight: bold;
 
 	
@@ -184,6 +189,12 @@ font-weight: bold;
 	display: inline-block;
 	background: white;
 
+}
+
+.jumbotron .h1_text {
+
+	font-size: 30px;
+	font-family: ubuntu; 
 }
 
 img.thalescode_image {
@@ -510,6 +521,20 @@ textarea {
 	padding: 10px;
 }
 
-.map {
+iframe {
+
+	padding-right: 30px;
+	width: 100%;
 	
+	background-color: rgb(229, 227, 223);
+}
+
+.map {
+	width: 100%;
+	height: 100%;
+
+}
+
+.map-row {
+	height: 500px;
 }
